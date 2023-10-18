@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-cajp
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/ci1t-830-0057-tenant/ci1t-830-0057-app/devfile-sample-cajp@sha256:596e38e208a70553c71d16fff81c1f4b97252286625c93d9c01819857f5725e4
         name: my-nodejs
         ports:
         - containerPort: 3001
