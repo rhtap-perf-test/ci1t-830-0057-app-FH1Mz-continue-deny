@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-cajp
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoup_perfscale/ci1t-830-0057-tenant/ci1t-830-0057-app/devfile-sample-cajp@sha256:596e38e208a70553c71d16fff81c1f4b97252286625c93d9c01819857f5725e4
+        name: my-nodejs
+        resources: {}
+status: {}
